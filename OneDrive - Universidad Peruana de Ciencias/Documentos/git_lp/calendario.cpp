@@ -528,7 +528,7 @@ void MostrarMenu()
     system("cls");
 
     cout << "\n================================\n";
-    cout << "        MENU PRINCIPAL   \n";
+    cout << "         MENU PRINCIPAL   \n";
     cout << "================================\n";
     cout << "1. EDITAR / REGISTRAR CURSOS\n";
     cout << "2. LISTA DE HORARIO COMPLETO\n";
@@ -541,6 +541,7 @@ void MostrarMenu()
     cout << "Seleccionar opcion: ";
 
 }
+
 
 
 int main()
@@ -598,7 +599,7 @@ int main()
 
         case 3:
 
-            cout << "Dia (1=Lun ... 6=Sab): ";
+            cout << "Dia (1=Lun ..... 6=Sab): ";
             cin >> dia;
 
             MostrarDia(horario, dia - 1);
